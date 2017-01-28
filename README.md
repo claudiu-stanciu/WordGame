@@ -1,4 +1,4 @@
-World Game
+# Word Game
 
 Paul is obsessed with letters: He believes that the letter "A" and "B" are the most beautiful in the roman alphabet.
 Inspired by those lovely shapes, Paul created a simple game:
@@ -25,11 +25,12 @@ Initial: "A"
 Target: "ABBA"
 Excepted: False
 
-We have provided you a sample unit test class that contains sample tests.
+# Build
+```
+mvn compile
+```
 
-### PLEASE NOTE: DUE TO ATTACHMENT RESTRICTIONS IN EMAILS THE FOLLOWING TWO LIBRARIES NEEDS TO BE INSTALLED MANUALLY IF YOU WANT TO RUN THE UNIT TEST PROVIDED ###
-[Junit4] (http://search.maven.org/remotecontent?filepath=junit/junit/4.12/junit-4.12.jar)
-[hamcrest] (http://search.maven.org/remotecontent?filepath=org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar)
-
-When you have returned your solution to us, we will execute a series of tests to verify if the solution is correct.
-Feel free to use any IDE of your choice, we will only be evaluating the source code.
+# Test
+```
+mvn test
+```

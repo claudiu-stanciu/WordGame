@@ -28,4 +28,11 @@ public class WordGameTest {
         String target = "ABBA";
         Assert.assertFalse(wordGame.validate(initial, target));
     }
+    
+    @Test
+    public void testLongerInitialWord() {
+        String initial = "ABBBBB";
+        String target = "ABBA";
+        Assert.assertFalse(wordGame.validate(initial, target));
+    }
 }
